@@ -30,7 +30,7 @@ function App() {
     <div>
       <Header>
         <Container>
-          <h1>Wilders Book with CD (server ubuntu)</h1>
+          <h1>Wilders Book with CD (you are on the ubuntu server!)</h1>
         </Container>
       </Header>
       <Container>
