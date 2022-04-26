@@ -4,7 +4,7 @@ services:
   server:
     # build: ./server
     # change username and server image by your DockerHub info
-    image: loicbdev/server-image:latest
+    image: loicbdev/wdd-back:latest
     command: sh -c "npm run build && npm run prod"
     expose:
       - 5000
@@ -16,7 +16,7 @@ services:
   client:
     # build: ./client
     # change username and client image by your DockerHub info
-    image: loicbdev/client-image:latest
+    image: loicbdev/wdd-front:latest
     command: sh -c "npm run build"
     volumes:
       - web-client-build:/app/build
